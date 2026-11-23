@@ -1,0 +1,15 @@
+{
+  "name": "wordloom",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "setup": "node scripts/fetch-assets.mjs vendor",
+    "artwork": "node scripts/fetch-assets.mjs artwork",
+    "build": "node scripts/bundle.mjs"
+  }
+}
